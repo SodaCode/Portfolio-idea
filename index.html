@@ -1,148 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- TODO: Add an Icon -->
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Dominic Saechao</title>
-    <link rel="stylesheet" href="index.css">
-</head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <!-- Nav -->
-        <section class="nav" id="home">
-            <nav id="nav-bar">
-                <div id="nav-items">
-                    <ul>
-                        <li class="nav-item">
-                            <a href="#home">
-                                <p>Home</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#about">
-                                <p>About Me</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#projects">
-                                <p>Projects</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#contact">
-                                <p>Contact</p>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </section>
+      <section id="hero">
+        <div class="hero-bg">
+          <h1>Welcome</h1>
+          <h3>Web Developer</h3>
+        </div>
+      </section>
 
-        <section id="hero">
-            <div class="hero-bg">
-                <h1>Welcome</h1>
-                <h3>Web Developer</h3>
+      <section id="about">
+        <div class="container">
+          <h1 class="hero-text left">About Me</h1>
+          <div class="hero-text right">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+              magni placeat perferendis, facere minus explicabo fuga autem et
+              magnam voluptates veritatis tempora non, repellendus rem
+              cupiditate ipsa blanditiis similique amet.
+            </p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam sint exercitationem voluptatibus eius qui illo.
+            </p>
+            <div id="buttons">
+              <button class="hero-buttons">View Works</button>
+              <button class="hero-buttons">Download Resume</button>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <section id="about">
-            <div class="container">
-                <h1 class="hero-text left">About Me</h1>
-                <div class="hero-text right">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius magni placeat perferendis, facere
-                        minus
-                        explicabo fuga autem et magnam voluptates veritatis tempora non, repellendus rem cupiditate ipsa
-                        blanditiis similique amet.</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sint exercitationem
-                        voluptatibus
-                        eius qui illo.</p>
-                    <div id="buttons">
-                        <button class="hero-buttons">View Works</button>
-                        <button class="hero-buttons">Download Resume</button>
-                    </div>
-                </div>
+      <section id="projects">
+        <div class="container">
+          <div id="projects-blerb">
+            <h1 class="projects-text">Projects</h1>
+            <div class="projects-text">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Laboriosam sint exercitationem voluptatibus eius qui illo.
+              </p>
             </div>
-        </section>
-
-        <section id="projects">
-            <div class="container">
-                <div id="projects-blerb">
-                    <h1 class="projects-text">Projects</h1>
-                    <div class="projects-text">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sint exercitationem
-                            voluptatibus
-                            eius qui illo.</p>
-                    </div>
-                    <div id="projects-grid">
-                        <!-- TODO: Need to add a grid of projects -->
-                        <h1>ADD PROJECTS GRID</h1>
-                    </div>
-                </div>
+            <div id="projects-grid">
+              <!-- TODO: Need to add a grid of projects -->
+              <h1>ADD PROJECTS GRID</h1>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <section id="contact">
-            <div class="container">
-                <div id="contact-blerb">
-                    <h1 class="contact-text">Contact Me</h1>
-                    <div class="contact-info">
-                        <ul>
-                            <li>San Jose, CA</li>
-                            <li>dominicsaechao1@gmail.com</li>
-                        </ul>
-                    </div>
-                    <div class="contact-follow">
-                        <ul>
-                            <li><a href="#">linkedin</a></li>
-                            <li><a href="#">github</a></li>
-                        </ul>
-                    </div>
-                    <div id="contact-form">
-                        <div class="contact">
-                            <form action="action_page.php">
-
-                                <label for="name">Name</label>
-                                <input type="text" id="name" name="name" placeholder="Type your name">
-
-                                <label for="phone-number">Phone Number</label>
-                                <input type="text" id="phone-number" name="phone-number"
-                                    placeholder="Type your phone number">
-
-                                <label for="email">Email</label>
-                                <input type="text" id="email" name="email" placeholder="Type your email">
-
-                                <label for="subject">Your Message</label>
-                                <textarea id="subject" name="subject" placeholder="Type your message here"
-                                    style="height:200px"></textarea>
-
-                                <input type="submit" value="SEND MESSAGE">
-
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <footer>
-            <div class="footer-logo"></div>
-            <p class="footer-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, eaque.
-                Iusto, facere?</p>
-            <div class="footer-links">
-                <ul>
-                    <li><a href="#">logo1</a></li>
-                    <li><a href="#">logo2</a></li>
-                </ul>
-                <hr />
-                <p>Copyright &copy 2019 DominicSaechao</p>
-            </div>
-        </footer>
+      <footer>
+        <div class="footer-logo"></div>
+        <p class="footer-text">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Exercitationem, eaque. Iusto, facere?
+        </p>
+        <div class="footer-links">
+          <ul>
+            <li><a href="#">logo1</a></li>
+            <li><a href="#">logo2</a></li>
+          </ul>
+          <hr />
+          <p>Copyright &copy 2019 DominicSaechao</p>
+        </div>
+      </footer>
     </div>
-</body>
-
+  </body>
 </html>
